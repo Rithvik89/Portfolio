@@ -39,22 +39,22 @@ const Library = () => {
       date: 'March 2024'
     },
     {
-      title: 'The Log: What every software engineer should know about real-time data',
-      author: 'Jay Kreps',
+      title: 'MapReduce: Simplified Data Processing on Large Clusters',
+      author: 'Jeffrey Dean and Sanjay Ghemawat',
       type: 'paper',
-      tags: ['databases', 'distributed-systems', 'streaming'],
-      description: 'An in-depth look at logs in distributed systems and their role in data processing.',
-      link: 'https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying',
+      tags: ['distributed-systems', 'big-data', 'parallel-computing'],
+      description: 'The seminal paper introducing MapReduce, a programming model for processing large datasets across distributed clusters.',
+      link: 'https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf',
       date: 'February 2024'
     },
     {
-      title: 'Clean Code',
-      author: 'Robert C. Martin',
+      title: 'Database Internals: A Deep Dive into How Distributed Data Systems Work',
+      author: 'Alex Petrov',
       type: 'book',
-      tags: ['programming', 'best-practices', 'software-engineering'],
-      description: 'A handbook of agile software craftsmanship focusing on writing clean, maintainable code.',
-      link: 'https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882',
-      date: 'January 2024'
+      tags: ['databases', 'distributed-systems', 'storage-engines'],
+      description: 'An in-depth exploration of database storage engines, distributed systems, and the internals of modern databases.',
+      link: 'https://www.amazon.com/Database-Internals-Deep-Distributed-Systems/dp/1492040347',
+      date: 'March 2024'
     }
   ]
 
