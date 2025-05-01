@@ -22,7 +22,7 @@ const Home = () => {
                 • <Link href="https://github.com/Rithvik89/KVStore" color="blue.500" isExternal>KV Store</Link> – A key-value store designed to be configurable between high consistency and high availability, depending on the use case.
               </Text>
               <Text fontSize="lg" color="gray.600">
-                • <Link href="https://github.com/kridavyuha" color="blue.500" isExternal>Krida-Vyuha</Link> – An experimental concept aiming to capture the essence of watching cricket through interactive, gamified experiences. It blends decision-making with real-time match dynamics to enhance fan engagement.
+                • <Link href="https://github.com/kridavyuha" color="blue.500" isExternal>Krida-Vyuha</Link> – An experimental concept aiming to capture the essence of watching cricket through interactive, gamified experiences.
               </Text>
             </VStack>
           </Box>
