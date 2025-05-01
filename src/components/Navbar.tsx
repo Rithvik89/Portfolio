@@ -80,6 +80,18 @@ const Navbar = () => {
           </Link>
           <Link 
             as={RouterLink} 
+            to="/courses" 
+            _hover={{ 
+              textDecoration: 'none',
+              color: 'green.400',
+              transform: 'translateY(-2px)'
+            }}
+            transition="all 0.3s ease"
+          >
+            Courses
+          </Link>
+          <Link 
+            as={RouterLink} 
             to="/blogs" 
             _hover={{ 
               textDecoration: 'none',
@@ -156,6 +168,21 @@ const Navbar = () => {
               onClick={onToggle}
             >
               Library
+            </Link>
+            <Link
+              as={RouterLink}
+              to="/courses"
+              p={2}
+              _hover={{ 
+                textDecoration: 'none', 
+                bg: 'green.50',
+                color: 'green.400',
+                transform: 'translateX(5px)'
+              }}
+              transition="all 0.3s ease"
+              onClick={onToggle}
+            >
+              Courses
             </Link>
             <Link
               as={RouterLink}

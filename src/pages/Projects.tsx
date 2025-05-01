@@ -38,7 +38,7 @@ const Projects = () => {
           <Heading as="h1" size="xl" mb={6}>
             My Projects
           </Heading>
-          <Text fontSize="xl" color="gray.600">
+          <Text fontSize="lg" color="gray.600">
             Here are some of the projects I've worked on. Each project represents
             a unique challenge and learning experience.
           </Text>
