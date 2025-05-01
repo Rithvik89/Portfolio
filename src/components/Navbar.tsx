@@ -1,38 +1,18 @@
-import { useState } from 'react'
 import {
   Box,
   Flex,
   Link,
   Stack,
-  useColorModeValue,
   IconButton,
   useDisclosure,
   Collapse,
   HStack,
-  Text,
-  Button,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  useBreakpointValue,
 } from '@chakra-ui/react'
-import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { Link as RouterLink } from 'react-router-dom'
 
 const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure()
-  const [isScrolled, setIsScrolled] = useState(false)
-
-  // Add scroll event listener to change navbar style on scroll
-  if (typeof window !== 'undefined') {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 20) {
-        setIsScrolled(true)
-      } else {
-        setIsScrolled(false)
-      }
-    })
-  }
 
   return (
     <Box

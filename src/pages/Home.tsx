@@ -1,5 +1,4 @@
-import { Box, Container, VStack, Heading, Text, HStack, Icon, Link, Divider } from '@chakra-ui/react'
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'
+import { Box, Container, VStack, Heading, Text, Divider } from '@chakra-ui/react'
 import LatestBlogs from '../components/LatestBlogs'
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
             <Heading as="h1" size="xl" mb={6}>
               About Me
             </Heading>
-            <Text fontSize="lg" color="gray.600" mb={4}>
+            <Text fontSize="lg" color="gray.600" mb={4} >
               I'm a Software Engineer at VISA, where I've been working since June 2023. My passion lies in distributed systems and building scalable infrastructure.
             </Text>
             <Text fontSize="ll" color="gray.600" mb={4}>
