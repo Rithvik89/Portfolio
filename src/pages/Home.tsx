@@ -1,4 +1,4 @@
-import { Box, Container, VStack, Heading, Text, Divider, Link } from '@chakra-ui/react'
+import { Box, Container, VStack, Heading, Text, Divider } from '@chakra-ui/react'
 import LatestBlogs from '../components/LatestBlogs'
 
 const Home = () => {
