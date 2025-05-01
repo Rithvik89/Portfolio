@@ -16,7 +16,6 @@ import {
   Badge,
   Link,
   Icon,
-  Divider,
 } from '@chakra-ui/react'
 import { FaSearch, FaBook, FaFileAlt } from 'react-icons/fa'
 
