@@ -1,4 +1,4 @@
-import { ChakraProvider, Box, theme } from '@chakra-ui/react'
+import { ChakraProvider, Box, extendTheme } from '@chakra-ui/react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -6,6 +6,13 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Library from './pages/Library'
 import Blogs from './pages/Blogs'
+
+const theme = extendTheme({
+  fonts: {
+    heading: '"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif',
+   
+  },
+})
 
 function App() {
   return (
