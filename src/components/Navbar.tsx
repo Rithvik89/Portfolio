@@ -38,7 +38,7 @@ const Navbar = () => {
     <Box
       position="fixed"
       w="100%"
-      bg="white"
+      bg="gray.50"
       px={4}
       borderBottom="1px solid"
       borderColor="gray.200"

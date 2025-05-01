@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {
   Box,
   Container,
@@ -24,6 +24,10 @@ import redisArchitectureImage from '../assets/images/redis-architecture.svg'
 const Blogs = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
+
+  useEffect(() => {
+    document.title = 'Blogs | Rithvik Reddy'
+  }, [])
 
   const blogs = [
     {

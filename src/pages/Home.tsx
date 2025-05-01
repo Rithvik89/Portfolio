@@ -28,43 +28,7 @@ const Home = () => {
             </VStack>
           </Box>
 
-          {/* Social Links */}
-          <Box>
-            <HStack spacing={6} justify="center">
-              <Link href="https://www.linkedin.com/in/rithvik-reddy-9b495a198/" isExternal>
-                <Icon
-                  as={FaLinkedin}
-                  w={8}
-                  h={8}
-                  color="blue.600"
-                  _hover={{ transform: 'scale(1.1)', color: 'blue.500' }}
-                  transition="all 0.3s ease"
-                />
-              </Link>
-              <Link href="https://twitter.com/your-handle" isExternal>
-                <Icon
-                  as={FaTwitter}
-                  w={8}
-                  h={8}
-                  color="blue.400"
-                  _hover={{ transform: 'scale(1.1)', color: 'blue.300' }}
-                  transition="all 0.3s ease"
-                />
-              </Link>
-              <Link href="https://github.com/Rithvik89" isExternal>
-                <Icon
-                  as={FaGithub}
-                  w={8}
-                  h={8}
-                  color="gray.700"
-                  _hover={{ transform: 'scale(1.1)', color: 'gray.600' }}
-                  transition="all 0.3s ease"
-                />
-              </Link>
-            </HStack>
-          </Box>
-
-          <Divider my={8} />
+          <Divider/>
 
           {/* Latest Blogs Section */}
           <Box>
@@ -76,4 +40,4 @@ const Home = () => {
   )
 }
 
-export default Home 
+export default Home ;

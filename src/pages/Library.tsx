@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {
   Box,
   Container,
@@ -23,6 +23,10 @@ const Library = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedTag, setSelectedTag] = useState('all')
   const [selectedType, setSelectedType] = useState('all')
+
+  useEffect(() => {
+    document.title = 'Library | Rithvik Reddy'
+  }, [])
 
   const items = [
     {

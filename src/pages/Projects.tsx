@@ -1,7 +1,12 @@
+import { useEffect } from 'react'
 import { Box, Container, Heading, Text, SimpleGrid, VStack, HStack, Tag, Link, Icon } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
 
 const Projects = () => {
+  useEffect(() => {
+    document.title = 'Projects | Rithvik Reddy'
+  }, [])
+
   const projects = [
     {
       title: 'KVStore',
