@@ -14,13 +14,14 @@ import {
 import { FaLinkedin, FaTwitter, FaMedium } from 'react-icons/fa'
 import postgresWALImage from '../assets/images/postgres-wal.png'
 import redisArchitectureImage from '../assets/images/redis-architecture.svg'
+import databaseImage from '../assets/images/database.png'
 
 const LatestBlogs = () => {
   const blogs = [
     {
       title: 'Transaction Isolation in Databases',
       excerpt: 'A comprehensive guide to understanding transaction isolation levels in databases, from Read Committed to Serializable, and their impact on data consistency and performance...',
-      image: postgresWALImage,
+      image: databaseImage,
       date: 'May 24, 2025',
       category: 'Database',
       readTime: '10 min read',
