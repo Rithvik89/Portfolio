@@ -18,6 +18,16 @@ import redisArchitectureImage from '../assets/images/redis-architecture.svg'
 const LatestBlogs = () => {
   const blogs = [
     {
+      title: 'Transaction Isolation in Databases',
+      excerpt: 'A comprehensive guide to understanding transaction isolation levels in databases, from Read Committed to Serializable, and their impact on data consistency and performance...',
+      image: postgresWALImage,
+      date: 'May 24, 2025',
+      category: 'Database',
+      readTime: '10 min read',
+      link: 'https://www.linkedin.com/pulse/transaction-isolation-databases-rithvik-reddy-eq6nc/?trackingId=fbdjEyKNRACaUa781gz%2FHw%3D%3D',
+      platform: 'linkedin'
+    },
+    {
       title: 'Understanding WAL in PostgreSQL',
       excerpt: 'A deep dive into Write-Ahead Logging in PostgreSQL and its importance in database reliability...',
       image: postgresWALImage,
